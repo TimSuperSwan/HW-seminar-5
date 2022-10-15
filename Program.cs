@@ -52,7 +52,28 @@ namespace Семинар5дз
         до плюс бесконечности, с дробными не работаем). Найдите разницу между максимальным и 
         минимальным элементов массива.
         [3 7 22 2 78] -> 76 */
+        /*
+        Console.WriteLine("Введите размерность массива:");
+        int SizeArray = int.Parse(Console.ReadLine()!);
+        int[] Array = GetArray(SizeArray,-9999999,9999999);
+        Console.WriteLine($"[{String.Join("|", Array)}]");
+        int MinNum = 0;
+        int MaxNum = 0;
 
+        for (int i = 0; i < Array.Length; i++)
+        {
+            if (Array[i] > MaxNum)
+            {
+                MaxNum = Array[i];
+            }
+            if (Array[i] < MinNum )
+            {
+                MinNum = Array[i];
+            }
+        }
+
+        Console.WriteLine($"Разница между максимальным и минимальным числом массива = {MaxNum-MinNum}");
+        */
 
 
 
